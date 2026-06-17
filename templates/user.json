@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "role": "",
+  "background": "",
+  "course_goal": "",
+  "success_criteria": "",
+  "out_of_scope": "",
+  "_comment": "The running example for this course is THE THING THE LEARNER WANTS TO BUILD. Capture it richly so every module can reason about it.",
+  "build_idea": "",
+  "build_concrete_version": "",
+  "build_who_its_for": "",
+  "build_whats_hard_today": "",
+  "comfort_level": 0,
+  "_comfort_level_scale": "1 = never heard of the BMAD Method, 5 = have used it; calibrates how deep the instructor goes",
+  "beginner_first": true,
+  "navigation_preference": "flexible",
+  "_navigation_preference_options": "flexible = pick any module in any order (default for this buffet-style course); sequential = guided 1->9 path",
+  "delivery_environment": "claude-code",
+  "created": "",
+  "version": 1
+}

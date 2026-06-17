@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+  Learn BMAD — Reference Card. Static study aid, built once, self-contained (inline CSS
+  only, no external deps). Open in a browser; print as needed. No AI required.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Learn BMAD — Reference Card</title>
+  <style>
+    :root {
+      --ink: #1a1a2e; --muted: #555; --line: #d8d8e0;
+      --accent: #6d28d9; --bg: #f4f4f8; --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 2rem 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink); background: var(--bg); line-height: 1.5;
+    }
+    .sheet { max-width: 960px; margin: 0 auto; }
+    header { border-bottom: 3px solid var(--accent); padding-bottom: 0.75rem; margin-bottom: 1.5rem; }
+    header h1 { margin: 0 0 0.25rem; font-size: 1.7rem; }
+    header p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.1rem; break-inside: avoid; }
+    .card h2 { margin: 0 0 0.6rem; font-size: 1.05rem; color: var(--accent); }
+    .row { display: flex; justify-content: space-between; gap: 0.75rem; padding: 0.35rem 0; border-bottom: 1px dashed var(--line); font-size: 0.92rem; }
+    .row:last-child { border-bottom: none; }
+    .row .term { font-weight: 600; }
+    .row .def { color: var(--muted); text-align: right; }
+    .full { display: block; padding: 0.35rem 0; border-bottom: 1px dashed var(--line); font-size: 0.92rem; }
+    .full:last-child { border-bottom: none; }
+    .full .term { font-weight: 600; }
+    .note { margin: 0.5rem 0 0; font-size: 0.85rem; color: var(--muted); }
+    footer { margin-top: 1.5rem; padding-top: 0.75rem; border-top: 1px solid var(--line); font-size: 0.8rem; color: var(--muted); }
+    @media print { body { background: #fff; padding: 0; } .card { border-color: #999; } footer { color: #000; } a { color: #000; text-decoration: none; } }
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <header>
+      <h1>Learn BMAD — Reference Card</h1>
+      <p>The whole method at a glance. BMAD = <strong>B</strong>uild <strong>M</strong>ore, <strong>A</strong>rchitect <strong>D</strong>reams.</p>
+    </header>
+
+    <section class="cards">
+
+      <article class="card">
+        <h2>The Five Beliefs</h2>
+        <div class="full"><span class="term">1. Plan before you build.</span> A little thinking up front beats a lot of rework.</div>
+        <div class="full"><span class="term">2. Make decisions explicit.</span> Written down = everyone builds the same thing.</div>
+        <div class="full"><span class="term">3. Scale rigor to the change.</span> A typo ≠ a platform.</div>
+        <div class="full"><span class="term">4. Use specialists, not one generalist.</span> A crew beats one AI in every hat.</div>
+        <div class="full"><span class="term">5. Human in the loop where it matters.</span> Spend attention on the big calls.</div>
+        <p class="note">The antidote to "vibe coding": one vague chat, winging it.</p>
+      </article>
+
+      <article class="card">
+        <h2>The Four Phases</h2>
+        <div class="row"><span class="term">1 · Analysis</span><span class="def">Understand the problem (optional, sharpening)</span></div>
+        <div class="row"><span class="term">2 · Planning</span><span class="def">What &amp; why? → a PRD</span></div>
+        <div class="row"><span class="term">3 · Solutioning</span><span class="def">How? + units of work → architecture, epics, stories</span></div>
+        <div class="row"><span class="term">4 · Implementation</span><span class="def">Build it, one story at a time</span></div>
+        <p class="note">Run each workflow in a fresh chat. You don't always use all four.</p>
+      </article>
+
+      <article class="card">
+        <h2>Your AI Crew</h2>
+        <div class="row"><span class="term">Analyst — Mary</span><span class="def">Research, thinking clearly</span></div>
+        <div class="row"><span class="term">PM — John</span><span class="def">The PRD</span></div>
+        <div class="row"><span class="term">Architect — Winston</span><span class="def">Technical decisions</span></div>
+        <div class="row"><span class="term">UX — Sally</span><span class="def">UX / UI</span></div>
+        <div class="row"><span class="term">Developer — Amelia</span><span class="def">Writes the code</span></div>
+        <div class="row"><span class="term">Tech Writer — Paige</span><span class="def">Docs</span></div>
+        <p class="note">Party Mode = the whole crew in one chat. Great for big decisions &amp; retros.</p>
+      </article>
+
+      <article class="card">
+        <h2>Right-Sizing</h2>
+        <div class="row"><span class="term">Small change</span><span class="def">quick-dev (clarify→plan→implement→review)</span></div>
+        <div class="row"><span class="term">Major change</span><span class="def">Full four-phase method</span></div>
+        <p class="note">Quick-dev: compress intent into one clear goal, take the smallest safe path, bring the human in only at clarify / spec-approve / final-review. Over-processing small work is itself a mistake.</p>
+      </article>
+
+      <article class="card">
+        <h2>The Build Cycle (Phase 4)</h2>
+        <div class="full"><span class="term">Once:</span> sprint-planning → sprint-status.yaml</div>
+        <div class="full"><span class="term">Per story:</span> create-story → dev-story → code-review</div>
+        <div class="full"><span class="term">Per epic:</span> retrospective</div>
+        <p class="note">Each step in a fresh chat. Dev Loop Automation = on the roadmap.</p>
+      </article>
+
+      <article class="card">
+        <h2>When You're Lost</h2>
+        <div class="full"><span class="term">First move:</span> run <strong>BMad-Help</strong> — it inspects your project and recommends what's next.</div>
+        <div class="full"><span class="term">Modules:</span> BMM (core) · CIS (creative) · GDS (games) · TEA (testing) · BMB (build agents)</div>
+        <div class="full"><span class="term">Don't guess:</span> check the docs → docs.bmad-method.org</div>
+        <p class="note">BMad-Help also runs at the end of every workflow to tell you what's next.</p>
+      </article>
+
+      <article class="card">
+        <h2>Plain-English Glossary</h2>
+        <div class="row"><span class="term">PRD</span><span class="def">What we're building &amp; why</span></div>
+        <div class="row"><span class="term">ADR</span><span class="def">One technical decision, written down</span></div>
+        <div class="row"><span class="term">Epic</span><span class="def">Big chunk → breaks into stories</span></div>
+        <div class="row"><span class="term">Story</span><span class="def">One small buildable unit</span></div>
+        <div class="row"><span class="term">Readiness gate</span><span class="def">PASS / CONCERNS / FAIL before building</span></div>
+      </article>
+
+      <article class="card">
+        <h2>Where to Learn More</h2>
+        <div class="full"><span class="term">Docs:</span> docs.bmad-method.org</div>
+        <div class="full"><span class="term">Get started:</span> docs.bmad-method.org/tutorials/getting-started</div>
+        <div class="full"><span class="term">Roadmap:</span> docs.bmad-method.org/roadmap</div>
+        <div class="full"><span class="term">Code:</span> github.com/bmad-code-org/BMAD-METHOD</div>
+      </article>
+
+    </section>
+
+    <footer>
+      Learn BMAD · eugeniawang/learn-bmad · Distilled from the official BMAD docs — an independent learning aid, not an official product. Reference card: open in a browser, print as needed. No model required.
+    </footer>
+  </main>
+</body>
+</html>

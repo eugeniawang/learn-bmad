@@ -1,0 +1,12 @@
+# Learner working files — created at runtime by the instructor from templates/.
+# The course ships the templates/ versions; the root copies are personal and
+# should not be committed (they hold the learner's name, build, and progress).
+/user.json
+/progress.json
+/PROGRESS.md
+/MY_BUILD.md
+/GLOSSARY.md
+/COMPETENCY_MAP.md
+
+# OS / editor noise
+.DS_Store

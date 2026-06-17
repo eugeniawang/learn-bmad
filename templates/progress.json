@@ -1,0 +1,65 @@
+{
+  "course": "Learn BMAD — the Method, for People Who Are Learning to Build",
+  "version": 3,
+  "current_session": 1,
+  "navigation": {
+    "mode": "flexible",
+    "recommended_mode": "flexible",
+    "allow_jump_ahead": true,
+    "jump_history": []
+  },
+  "_comment": "Modules are tracked here as the 'sessions' array (framework field name). This course is non-sequential: completing a module does NOT force the next. status: not_started | in_progress | completed",
+  "course_meta": {
+    "build_mode": "greenfield",
+    "intake_template": "topic-led",
+    "original_course_path": "none",
+    "reconstruction_copy_path": "none",
+    "original_course_mutation_policy": "never edit the original course in place",
+    "goal_type": "general learning",
+    "course_goals": [
+      "Explain what the BMAD Method is and why it beats one-chat vibe coding",
+      "Name the four phases and what each is for",
+      "Decide how much process a job needs (quick-dev vs full method)",
+      "Map their own build onto the BMAD workflow"
+    ],
+    "success_criteria": [],
+    "out_of_scope": [
+      "install/config mechanics",
+      "senior-dev depth",
+      "exam prep",
+      "writing code",
+      "exhaustive per-workflow command references"
+    ],
+    "delivery_environment": "claude-code",
+    "source_boundary": "SOURCE.md covers BMAD philosophy, the four phases, agents, scale-adaptive/quick-dev, BMad-Help, the module ecosystem, and a docs map. It does NOT cover step-by-step install/config (pointed to the docs).",
+    "capstone": "A one-page BMAD plan for the learner's own build, in MY_BUILD.md"
+  },
+  "review_queue": [],
+  "parking_lot": [],
+  "competency_progress": {},
+  "time_tracking": {
+    "enabled": true,
+    "mode": "active_learning_time",
+    "total_active_minutes": 0,
+    "current_timer": {
+      "running": false,
+      "session_id": null,
+      "started_at": null,
+      "paused_at": null
+    },
+    "log": []
+  },
+  "sessions": [
+    { "id": 1, "title": "Why BMAD Exists", "phase": "Foundations", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#1"], "notes": "" },
+    { "id": 2, "title": "The Four-Phase Map", "phase": "Foundations", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#2"], "notes": "" },
+    { "id": 3, "title": "Meet Your AI Crew", "phase": "Your AI Crew", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#3"], "notes": "" },
+    { "id": 4, "title": "Think First", "phase": "The Method, Up Close", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#2.1", "SOURCE.md#2.2"], "notes": "" },
+    { "id": 5, "title": "Decide How", "phase": "The Method, Up Close", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#2.3"], "notes": "" },
+    { "id": 6, "title": "Ship It", "phase": "The Method, Up Close", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#2.4"], "notes": "" },
+    { "id": 7, "title": "Right-Size It", "phase": "Working Smart", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#4"], "notes": "" },
+    { "id": 8, "title": "Never Get Lost", "phase": "Working Smart", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#5", "SOURCE.md#6", "SOURCE.md#9"], "notes": "" },
+    { "id": 9, "title": "Your Build, the BMAD Way", "phase": "Capstone", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#2", "SOURCE.md#4"], "notes": "" },
+    { "id": 10, "title": "Build Your Own Teammate", "phase": "Level Up — Build Your Own", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#6.5"], "notes": "bonus/advanced track" },
+    { "id": 11, "title": "Build Your Own Skill", "phase": "Level Up — Build Your Own", "status": "not_started", "checkpoints": [], "check_result": null, "active_minutes": 0, "started_at": null, "completed_at": null, "time_log": [], "weak_concepts": [], "misconceptions": [], "retry_status": "not_needed", "recommended_next_action": "start_module", "source_anchors": ["SOURCE.md#6", "SOURCE.md#6.5"], "notes": "bonus/advanced track" }
+  ]
+}
