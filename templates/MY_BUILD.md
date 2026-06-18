@@ -35,6 +35,7 @@ _(filled in during setup)_
 - **M8 (Never Get Lost):** The first thing I'd ask BMad-Help → _____
 - **M10 (Build Your Own Teammate):** A custom agent I'd build (name, job, what it remembers) → _____
 - **M11 (Build Your Own Skill):** A repeatable chore I'd turn into a skill → _____
+- **M12 (Think Differently — CIS):** The CIS agent I'd most want on my build right now, and why → _____
 
 ---
 

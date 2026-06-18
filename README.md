@@ -85,9 +85,10 @@ Pick any. Order is a suggestion, not a rule.
 **Track 5 · Capstone**
 9. **Your Build, the BMAD Way** — pull it all together for your real project.
 
-**Track 6 · Level Up — Build Your Own (BMad Builder)** *(bonus / advanced)*
+**Track 6 · Level Up — Add-Ons & Build Your Own (BMad Builder)** *(bonus / advanced)*
 10. **Build Your Own Teammate** — create a custom agent, including agents that remember and improve over time.
 11. **Build Your Own Skill** — turn a repeatable chore into a reusable skill.
+12. **Think Differently** — the Creative Intelligence Suite: five specialist agents for the fuzzy front-end, before you're clear enough to start Analysis.
 
 ## Prerequisites
 

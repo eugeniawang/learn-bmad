@@ -57,11 +57,12 @@ Each `lessons/NN-*.md` file follows the same beats so a cold start always works:
 ### Track 5 · Capstone
 - **[Module 9 — Your Build, the BMAD Way](lessons/09-capstone.md)** · a one-page BMAD plan for your real project.
 
-### Track 6 · Level Up — Build Your Own (BMad Builder)
+### Track 6 · Level Up — Add-Ons & Build Your Own (BMad Builder)
 > Bonus/advanced. Take these whenever you're curious — great after you're comfortable with the basics.
 - **[Module 10 — Build Your Own Teammate](lessons/10-build-an-agent.md)** · BMad Builder: create a custom agent, including agents that remember &amp; improve over time.
 - **[Module 11 — Build Your Own Skill](lessons/11-build-a-skill.md)** · BMad Builder: turn a repeatable chore into a reusable skill.
+- **[Module 12 — Think Differently: the Creative Intelligence Suite](lessons/12-creative-intelligence.md)** · CIS: five specialist agents for the fuzzy front-end — before Analysis, when the problem space is still murky.
 
 ---
 
-**11 short, standalone modules · take them in any order · do as many as you need.**
+**12 short, standalone modules · take them in any order · do as many as you need.**

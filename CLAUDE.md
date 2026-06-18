@@ -86,10 +86,12 @@ Present it as a buffet. Nine short modules, pick any:
 - **9 · Your Build, the BMAD Way** — capstone: a one-page plan for your real project.
 - **10 · Build Your Own Teammate** — *(bonus)* BMad Builder: create a custom agent, incl. agents that remember & improve over time.
 - **11 · Build Your Own Skill** — *(bonus)* BMad Builder: turn a repeatable chore into a reusable skill.
+- **12 · Think Differently** — *(bonus)* Creative Intelligence Suite: five specialist agents for the fuzzy front-end — before Analysis, when the problem space is still murky.
 
 Recommended first taste if they're unsure: **1 → 2**, then wander. Capstone (9) is best
-once they've done a few. Modules **10–11 are a bonus "level up" track** (BMad Builder) —
-great anytime they're curious about building their own agents/skills, but never required.
+once they've done a few. Modules **10–12 are a bonus "level up" track** — 10–11 are BMad Builder (build your own
+agents/skills), 12 is the Creative Intelligence Suite (CIS, the fuzzy-front-end add-on).
+Great anytime they're curious, but never required.
 
 ---
 
