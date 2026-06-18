@@ -10,19 +10,27 @@ it in Claude Code and start from here.
 > that takes you from a fuzzy idea all the way to AI agents writing the code — using
 > specialized agents, guided workflows, and planning that scales to the job.
 
-## Quick start
+## How to get it
 
-From inside this folder, open Claude Code and say:
+1. **Download** — click the green **Code** button on this page → **Download ZIP**
+2. **Unzip** the file (double-click on Mac, or right-click → Extract on Windows)
+3. **Open the folder** in Claude Code:
+   - **Claude Code desktop app** — File → Open Folder → select `learn-bmad`
+   - **VS Code with Claude Code extension** — open the folder in VS Code, then open the Claude Code panel
+   - **Terminal** — `cd learn-bmad && claude`
+4. **Start** — type:
 
 ```
 Let's get started
 ```
 
-On first run the instructor asks a few quick questions — most importantly, **the one
-real thing you want to build**. From then on, every module applies BMAD to *your*
-project, and the capstone turns it into a one-page plan you can actually use.
+> **Model:** Claude Sonnet works great for this course — no need for Opus.
 
-Then, any time:
+On first run the instructor asks a few quick questions — most importantly, **the one real thing you want to build**. From then on every module applies BMAD to *your* project.
+
+## Quick reference — commands
+
+Any time:
 - **"Menu"** / **"What's next?"** — see the module buffet and a suggested pick
 - **"Module N"** / **"Jump to Module N"** — start any module, in any order
 - **"Continue my course"** — resume where you left off
@@ -91,30 +99,28 @@ Pick any. Order is a suggestion, not a rule.
 
 ## What's in this folder
 
-```
-learn-bmad/
-├── README.md          ← you are here
-├── index.html         ← course landing page (open in a browser)
-├── CLAUDE.md          ← the Claude Code instructor (this is what teaches you)
-├── LESSONS.md         ← the module index (the buffet menu)
-├── lessons/           ← one file per module (loaded one at a time)
-├── SOURCE.md          ← canonical BMAD source of truth + docs map
-├── reference/         ← printable cheat-sheet + a light self-check quiz (no AI needed)
-├── COURSE_PLAN.md     ← how this course was designed
-├── VALIDATION.md      ← the build's quality-check record
-└── templates/         ← user.json, progress.json, PROGRESS.md, MY_BUILD.md, GLOSSARY.md, COMPETENCY_MAP.md
-```
+| File | What it is |
+|------|-----------|
+| [README.md](./README.md) | you are here |
+| [index.html](./index.html) | course landing page (open in a browser) |
+| [CLAUDE.md](./CLAUDE.md) | the Claude Code instructor (this is what teaches you) |
+| [LESSONS.md](./LESSONS.md) | the module index (the buffet menu) |
+| [lessons/](./lessons/) | one file per module (loaded one at a time) |
+| [SOURCE.md](./SOURCE.md) | canonical BMAD source of truth + docs map |
+| [reference/](./reference/) | printable cheat-sheet + a light self-check quiz (no AI needed) |
+| [COURSE_PLAN.md](./COURSE_PLAN.md) | how this course was designed |
+| [VALIDATION.md](./VALIDATION.md) | the build's quality-check record |
+| [templates/](./templates/) | user.json, progress.json, PROGRESS.md, MY_BUILD.md, GLOSSARY.md, COMPETENCY_MAP.md |
 
 To begin, open this folder in Claude Code and say **"Let's get started."**
 
 ## A note on accuracy
 
 This course is distilled faithfully from the official BMAD documentation
-(`docs.bmad-method.org`) and repo, but it's an independent learning aid, not an official
+([docs.bmad-method.org](https://docs.bmad-method.org)) and [repo](https://github.com/bmad-code-org/BMAD-METHOD), but it's an independent learning aid, not an official
 BMAD product. When the instructor isn't sure, it points you to the real docs rather than
-guessing. `SOURCE.md` is the source of truth.
+guessing. [SOURCE.md](./SOURCE.md) is the source of truth.
 
 ## Privacy note
 
-`user.json`, `progress.json`, `PROGRESS.md`, and `MY_BUILD.md` hold *your* details and
-your build idea. This repo is private. Review before ever making it public or sharing.
+`user.json`, `progress.json`, `PROGRESS.md`, and `MY_BUILD.md` are generated locally and hold *your* details and your build idea. They are gitignored and never leave your machine.
