@@ -43,7 +43,14 @@
 
 ## First Run Setup Flow
 
-When `user.json` doesn't exist, run setup. **Use the AskUserQuestion tool** for these —
+When `user.json` doesn't exist, greet the learner and **immediately mention the model**
+before asking anything else:
+
+> "Welcome! Quick tip before we start: **Claude Sonnet is the right model for this course**
+> — no need for Opus. If you're on Opus right now, switch to Sonnet for a faster, more
+> responsive experience. You can change models in Claude Code's model selector."
+
+Then run setup. **Use the AskUserQuestion tool** for these —
 multiple-choice beats open prompts. Ask roughly one thing at a time; don't interrogate.
 
 1. "What should I call you?"

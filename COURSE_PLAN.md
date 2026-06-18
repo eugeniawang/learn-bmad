@@ -48,7 +48,7 @@ loop" or "right-sizing" and learn it standalone. Each module is written to stand
 (its own quick context primer), with light "if you liked this, try…" cross-links.
 A recommended order exists for anyone who wants a guided path, but it is opt-in.
 
-## Module map (11 short, standalone modules)
+## Module map (12 short, standalone modules)
 
 > Note: no per-module time estimates anywhere in the course — by owner decision, time
 > predictions on modules aren't useful. The active-time *tracker* (which measures real

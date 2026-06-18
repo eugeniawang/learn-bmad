@@ -87,7 +87,7 @@ Findings and dispositions:
 | Beginners learning to build (not senior devs) | Beginner-first mode, no code shown, jargon defined |
 | Non-sequential, pick-a-module | Flexible default; standalone modules; buffet framing |
 | Fun, lighthearted | Wry tone baked into adapter + every lesson |
-| Distilled, not ginormous | 11 short modules (9 core + 2 bonus BMad-Builder); no per-module time predictions (owner decision) |
+| Distilled, not ginormous | 12 short modules (9 core + 3 bonus: BMad-Builder ×2 + CIS); no per-module time predictions (owner decision) |
 | Meet-the-team is fun/game-like (owner request) | M3 rewritten: in-character intros, "lineup changes" caveat, "Draft Your Crew" scenario game |
 | Practical BMad-Builder sessions (owner request) | M10 (build an agent + memory) + M11 (build a skill); SOURCE §6.5 added |
 
