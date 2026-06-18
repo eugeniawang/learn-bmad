@@ -62,7 +62,7 @@ Solutioning → Implementation), your specialist AI crew and Party Mode, how to 
 the process to the work, and where to go when you're lost — all grounded in the one
 thing you actually want to build.
 
-## The 11 modules
+## The 12 modules
 
 Pick any. Order is a suggestion, not a rule.
 
